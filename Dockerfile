@@ -1,4 +1,4 @@
-FROM blimpacr.azurecr.io/node:dev-8.1
+FROM blimpacr.azurecr.io/node:dev-8.0
 LABEL maintainer="Azure App Services Container Images <appsvc-images@microsoft.com>"
 
 COPY index.js /home/site/wwwroot/index.js
